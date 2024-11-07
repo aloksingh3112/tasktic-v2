@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "task-manager-mobile",
+    "name": "TaskTic",
     "slug": "task-manager-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -33,6 +33,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b500599e-5483-4fe8-9e63-f9ce04be4b24"
+      }
     }
   }
 }
