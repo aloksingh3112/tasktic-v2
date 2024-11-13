@@ -3,7 +3,7 @@ import { ScrollView } from "react-native";
 
 const GoalsScreen = () => (
 <ScrollView >
-    <Text variant="primary">GoalsScreen</Text>
+    <Text>GoalsScreen</Text>
   </ScrollView>
 );
 

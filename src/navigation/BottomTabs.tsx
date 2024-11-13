@@ -36,9 +36,19 @@ const BottomTabs = () => (
 
         return <Ionicons size={size} color={color} />;
       },
-      tabBarActiveTintColor: colors.primary,
-      tabBarInactiveTintColor: colors.textSecondary,
+      // tabBarActiveTintColor: colors.primary,
+      // tabBarInactiveTintColor: colors.textSecondary,
       headerShown: false,
+      tabBarStyle: { backgroundColor: '#292929', borderTopWidth: 0, paddingBottom: 0},
+      headerStyle: { backgroundColor: '#292929' },  // Remove space above the header
+      headerTintColor: 'white', 
+
+      tabBarActiveTintColor: 'white',
+      tabBarInactiveTintColor: 'gray',
+
+      // For screen background
+      cardStyle: { backgroundColor: '#292929' },
+    
     })}
   >
     <Tab.Screen name="Home" component={HomeScreen} />

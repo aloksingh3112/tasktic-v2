@@ -1,62 +1,52 @@
 import React from 'react';
-import { View, ScrollView, StyleSheet } from 'react-native';
-import Text from '../ui-kit/Text';
+import { View, StyleSheet, ScrollView } from 'react-native';
 import Card from '../ui-kit/Card';
-import colors from '../theme/color';
+import Text from '../ui-kit/Text';
+import Button from '../ui-kit/Button';
 
-const HomeScreen = () => (
-  <ScrollView style={styles.container}>
-    <Text variant="primary" style={styles.welcomeText}>Welcome, John Taylor</Text>
-    <View style={styles.stats}>
+export default function HomeScreen() {
+  return (
+    <ScrollView style={styles.container}>
+      <View style={styles.header}>
+        <Text size={20}>Welcome</Text>
+        <Text size={24} style={styles.userName}>John Taylor</Text>
+      </View>
+      <Card style={styles.progressCard}>
+        <Text size={18}>7/10 Tasks Completed</Text>
+        <Text size={18}>2/4 Goals Completed</Text>
+      </Card>
+      <Text size={20} style={styles.sectionTitle}>Tasks</Text>
       <Card>
-        <Text variant="primary">7/10 Tasks Completed</Text>
+        <Text size={16}>Attend Amina’s Birthday</Text>
+        <Text size={14} color="#888">Attend Amina's birthday party today.</Text>
       </Card>
       <Card>
-        <Text variant="primary">2/4 Goals Completed</Text>
+        <Text size={16}>Workout for 2 Hours</Text>
+        <Text size={14} color="#888">Daily workout for 2 hours including cardio and weights.</Text>
       </Card>
-    </View>
-    <View style={styles.tasks}>
-      <Text variant="primary" style={styles.sectionTitle}>Tasks</Text>
-      <Card>
-        <Text variant="primary">Attend Amina's Birthday</Text>
-        <Text variant="secondary">Attend Amina's birthday party today. Pending | Low</Text>
-      </Card>
-      <Card>
-        <Text variant="primary">Workout for 2 Hours</Text>
-        <Text variant="secondary">Daily workout for 2 hours including cardio and weights. Pending | High | 5 days</Text>
-      </Card>
-      <Card>
-        <Text variant="primary">15 Minute Meditation</Text>
-        <Text variant="secondary">15 minutes of meditation daily. Pending | Medium | 7 days</Text>
-      </Card>
-    </View>
-  </ScrollView>
-);
+      <Button title="Add Task" onPress={() => {}} />
+    </ScrollView>
+  );
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.background,
-    padding: 16,
+    backgroundColor: '#292929',
+    padding: 20,
   },
-  welcomeText: {
-    fontSize: 20,
+  header: {
+    marginBottom: 20,
+  },
+  userName: {
     fontWeight: 'bold',
-    marginBottom: 12,
+    color: '#FFF',
   },
-  stats: {
+  progressCard: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 24,
-  },
-  tasks: {
-    marginTop: 16,
   },
   sectionTitle: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginBottom: 8,
+    marginVertical: 15,
   },
 });
-
-export default HomeScreen;

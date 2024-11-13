@@ -1,7 +1,7 @@
-export default {
-    primary: '#5F4BB6',
+export const colors = {
+    primary: '#292929',
     secondary: '#FFAB40',
-    background: '#1C1C1E',
+    background: '#292929',
     cardBackground: '#2C2C2E',
     textPrimary: '#FFFFFF',
     textSecondary: '#A1A1AA',
@@ -12,3 +12,4 @@ export default {
     lowPriority: '#4CAF50',
   };
   
+  export default colors;
