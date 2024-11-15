@@ -1,12 +1,16 @@
-import colors from '@/theme/color';
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
+import { RFValue } from "react-native-responsive-fontsize";
 
-export default StyleSheet.create({
-  screenContainer: {
-    flex: 1,
-    backgroundColor: colors.background, 
+export const GlobalStyles = StyleSheet.create({
+  bottomBtn: {
+    position: "absolute",
+    bottom: 10,
+    width: "100%",
+    right: 0,
+    left: 20,
   },
-  text: {
-    color: '#FFFFFF', 
+  tabIcon: {
+    width: RFValue(18),
+    height: RFValue(18),
   },
 });
