@@ -91,7 +91,7 @@ const CustomDropdown = ({ placeholder, items, value, setValue }) => {
 const styles = StyleSheet.create({
   // Card Styles
   cardContainer: {
-    backgroundColor: '#1E1E1E',
+    backgroundColor: '#292929',
     borderRadius: 12,
     padding: 16,
     marginVertical: 8,
@@ -167,7 +167,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: 16,
-    backgroundColor: '#1E1E1E',
+    backgroundColor: '#292929',
     borderRadius: 12,
   },
   statsContainer: {
@@ -186,7 +186,7 @@ const styles = StyleSheet.create({
 
   // Dropdown Styles
   dropdown: {
-    backgroundColor: '#1E1E1E',
+    backgroundColor: '#292929',
     borderColor: '#333333',
     borderRadius: 8,
     height: 40,

@@ -15,10 +15,10 @@
 		16CBA3CE59604DD8B4A8720D /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFED3B3E8433415886B8E5C7 /* Roboto-Black.ttf */; };
 		177EF328B4704E0CB665E997 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F58DF82824140C1BF87EA42 /* Roboto-Medium.ttf */; };
 		22BCC8144752459C89C80A29 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F5B8BC0DDFB41A28240910E /* Manrope-SemiBold.ttf */; };
-		7B10DC5086AF323E543A99BD /* libPods-taskTic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2D8F4EBAB197648E1F5A80 /* libPods-taskTic.a */; };
+		5B75C53AF7F2A179413F8051 /* libPods-taskTic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4804E1D5C87FCE7403C55E8F /* libPods-taskTic.a */; };
+		5F1FDE38F7D3B516013432DD /* libPods-taskTic-taskTicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1906F899360DA81312399 /* libPods-taskTic-taskTicTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		917B0988B47644439670971B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B852911B1D43E1A8CD909E /* Roboto-Bold.ttf */; };
-		95E50477B392912959CE0C88 /* libPods-taskTic-taskTicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E47A477B747E8770232ECC6 /* libPods-taskTic-taskTicTests.a */; };
 		B0D9F2CCC36D444D9D8C16D6 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88F00815682F43AA8093B2B4 /* Lato-Regular.ttf */; };
 		B9CEECD174AC4FF3AB86EC0D /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 893A3C5F2E494F80AD717D26 /* Manrope-Regular.ttf */; };
 		C0334D4FC69142879237A565 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B967DFE953DD4146A1F2B7FF /* Roboto-Regular.ttf */; };
@@ -46,21 +46,21 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = taskTic/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = taskTic/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = taskTic/main.m; sourceTree = "<group>"; };
+		27995EEFF772644EDDBA5D56 /* Pods-taskTic-taskTicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskTic-taskTicTests.release.xcconfig"; path = "Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests.release.xcconfig"; sourceTree = "<group>"; };
+		2AD67C87568E4AA7D6AA3989 /* Pods-taskTic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskTic.debug.xcconfig"; path = "Target Support Files/Pods-taskTic/Pods-taskTic.debug.xcconfig"; sourceTree = "<group>"; };
 		34B852911B1D43E1A8CD909E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		5BD950C233507D3088E08A77 /* Pods-taskTic-taskTicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskTic-taskTicTests.debug.xcconfig"; path = "Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4804E1D5C87FCE7403C55E8F /* libPods-taskTic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taskTic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3A452CB8E94FBEB3879EA8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		7D2D8F4EBAB197648E1F5A80 /* libPods-taskTic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taskTic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E47A477B747E8770232ECC6 /* libPods-taskTic-taskTicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taskTic-taskTicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5B8BC0DDFB41A28240910E /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-SemiBold.ttf"; path = "../src/assets/fonts/Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = taskTic/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8817DBCAB6B840CEA9945DC6 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		88F00815682F43AA8093B2B4 /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../src/assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
 		893A3C5F2E494F80AD717D26 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Regular.ttf"; path = "../src/assets/fonts/Manrope-Regular.ttf"; sourceTree = "<group>"; };
-		92B28A6037C3776B5FD001C6 /* Pods-taskTic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskTic.release.xcconfig"; path = "Target Support Files/Pods-taskTic/Pods-taskTic.release.xcconfig"; sourceTree = "<group>"; };
+		8DB1906F899360DA81312399 /* libPods-taskTic-taskTicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taskTic-taskTicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22CDEB1C6FF6E0E774AFDC1 /* Pods-taskTic-taskTicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskTic-taskTicTests.debug.xcconfig"; path = "Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4960EA6778ABDFB8F973CE8 /* Pods-taskTic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskTic.release.xcconfig"; path = "Target Support Files/Pods-taskTic/Pods-taskTic.release.xcconfig"; sourceTree = "<group>"; };
 		B967DFE953DD4146A1F2B7FF /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		BCE181A32BC546E6008D178A /* taskTic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = taskTic.entitlements; path = taskTic/taskTic.entitlements; sourceTree = "<group>"; };
-		CD02BBE940EEA50E3B36E046 /* Pods-taskTic-taskTicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskTic-taskTicTests.release.xcconfig"; path = "Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests.release.xcconfig"; sourceTree = "<group>"; };
-		CFC5504720395EFA233F3A15 /* Pods-taskTic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskTic.debug.xcconfig"; path = "Target Support Files/Pods-taskTic/Pods-taskTic.debug.xcconfig"; sourceTree = "<group>"; };
 		DFED3B3E8433415886B8E5C7 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E50477B392912959CE0C88 /* libPods-taskTic-taskTicTests.a in Frameworks */,
+				5F1FDE38F7D3B516013432DD /* libPods-taskTic-taskTicTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B10DC5086AF323E543A99BD /* libPods-taskTic.a in Frameworks */,
+				5B75C53AF7F2A179413F8051 /* libPods-taskTic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,8 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				7D2D8F4EBAB197648E1F5A80 /* libPods-taskTic.a */,
-				7E47A477B747E8770232ECC6 /* libPods-taskTic-taskTicTests.a */,
+				4804E1D5C87FCE7403C55E8F /* libPods-taskTic.a */,
+				8DB1906F899360DA81312399 /* libPods-taskTic-taskTicTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,10 +161,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CFC5504720395EFA233F3A15 /* Pods-taskTic.debug.xcconfig */,
-				92B28A6037C3776B5FD001C6 /* Pods-taskTic.release.xcconfig */,
-				5BD950C233507D3088E08A77 /* Pods-taskTic-taskTicTests.debug.xcconfig */,
-				CD02BBE940EEA50E3B36E046 /* Pods-taskTic-taskTicTests.release.xcconfig */,
+				2AD67C87568E4AA7D6AA3989 /* Pods-taskTic.debug.xcconfig */,
+				A4960EA6778ABDFB8F973CE8 /* Pods-taskTic.release.xcconfig */,
+				A22CDEB1C6FF6E0E774AFDC1 /* Pods-taskTic-taskTicTests.debug.xcconfig */,
+				27995EEFF772644EDDBA5D56 /* Pods-taskTic-taskTicTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -192,12 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "taskTicTests" */;
 			buildPhases = (
-				F12E1170423DB73247B9943C /* [CP] Check Pods Manifest.lock */,
+				5C56EA7E5A878618F74AEBB9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				9238B667138C38A3838862F2 /* [CP] Embed Pods Frameworks */,
-				5ADD1B43C58B0B8530EEF4C3 /* [CP] Copy Pods Resources */,
+				AC5A5CFFA05F434EFBE5B1A7 /* [CP] Embed Pods Frameworks */,
+				A8DC6818842C382F5D162F01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,13 +213,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "taskTic" */;
 			buildPhases = (
-				70436028B3370EAC18BBF7BD /* [CP] Check Pods Manifest.lock */,
+				A7F466797D15958B6411E0E4 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				1498F3A1F98682E131A34B70 /* [CP] Embed Pods Frameworks */,
-				0D2096AE98D149896DD9B243 /* [CP] Copy Pods Resources */,
+				526EC22699B649DA3BEB66BE /* [CP] Embed Pods Frameworks */,
+				AFE1A196E4DC5E777828F7F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,24 +311,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		0D2096AE98D149896DD9B243 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-taskTic/Pods-taskTic-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-taskTic/Pods-taskTic-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taskTic/Pods-taskTic-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1498F3A1F98682E131A34B70 /* [CP] Embed Pods Frameworks */ = {
+		526EC22699B649DA3BEB66BE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,24 +328,29 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taskTic/Pods-taskTic-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5ADD1B43C58B0B8530EEF4C3 /* [CP] Copy Pods Resources */ = {
+		5C56EA7E5A878618F74AEBB9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taskTic-taskTicTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		70436028B3370EAC18BBF7BD /* [CP] Check Pods Manifest.lock */ = {
+		A7F466797D15958B6411E0E4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,7 +372,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9238B667138C38A3838862F2 /* [CP] Embed Pods Frameworks */ = {
+		A8DC6818842C382F5D162F01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC5A5CFFA05F434EFBE5B1A7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -401,26 +406,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taskTic-taskTicTests/Pods-taskTic-taskTicTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F12E1170423DB73247B9943C /* [CP] Check Pods Manifest.lock */ = {
+		AFE1A196E4DC5E777828F7F1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taskTic/Pods-taskTic-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-taskTic-taskTicTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-taskTic/Pods-taskTic-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taskTic/Pods-taskTic-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -456,7 +456,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BD950C233507D3088E08A77 /* Pods-taskTic-taskTicTests.debug.xcconfig */;
+			baseConfigurationReference = A22CDEB1C6FF6E0E774AFDC1 /* Pods-taskTic-taskTicTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -483,7 +483,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD02BBE940EEA50E3B36E046 /* Pods-taskTic-taskTicTests.release.xcconfig */;
+			baseConfigurationReference = 27995EEFF772644EDDBA5D56 /* Pods-taskTic-taskTicTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -507,7 +507,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFC5504720395EFA233F3A15 /* Pods-taskTic.debug.xcconfig */;
+			baseConfigurationReference = 2AD67C87568E4AA7D6AA3989 /* Pods-taskTic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -536,7 +536,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92B28A6037C3776B5FD001C6 /* Pods-taskTic.release.xcconfig */;
+			baseConfigurationReference = A4960EA6778ABDFB8F973CE8 /* Pods-taskTic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

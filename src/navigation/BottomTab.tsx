@@ -24,7 +24,7 @@ const BottomTab: FC = () => {
         tabBarStyle: {
           paddingTop: Platform.OS === "ios" ? RFValue(5) : 0,
           paddingBottom: Platform.OS === "ios" ? 30 : 10,
-          backgroundColor: colors.background,
+          backgroundColor: colors.secondaryBackground,
           height: Platform.OS === "android" ? 70 : 80,
         },
         tabBarActiveTintColor: Colors.active_tab,

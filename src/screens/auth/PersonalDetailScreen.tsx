@@ -5,7 +5,7 @@ import CustomText from "../../components/global/CustomText";
 import { FONTS } from "../../constants/Fonts";
 import BackButton from "../../components/global/BackButton";
 import CustomInput from "../../components/inputs/CustomInput";
-import { GlobalStyles } from "../../styles/GlobalStyles";
+import { GlobalStyles } from "../../styles/globalStyles.tsx";
 import CustomButton from "../../components/global/CustomButton";
 import CustomDateInput from "../../components/inputs/CustomDateInput";
 import CustomRadioInput from "../../components/inputs/CustomRadioInput";

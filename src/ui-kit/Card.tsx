@@ -12,7 +12,7 @@ export default function Card({ children, style }: CardProps) {
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: '#2C2C2E',
+    backgroundColor: '#292929',
     borderRadius: 12,
     padding: 16,
     marginBottom: 16,

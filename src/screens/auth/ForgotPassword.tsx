@@ -3,7 +3,7 @@ import { View, Text, Alert, StyleSheet } from "react-native";
 import CustomSafeAreaView from "../../components/global/CustomSafeAreaView";
 import GuidelineText from "../../components/global/GuidelineText";
 import BackButton from "../../components/global/BackButton";
-import { GlobalStyles } from "../../styles/GlobalStyles";
+import { GlobalStyles } from "../../styles/globalStyles.tsx";
 import CustomButton from "../../components/global/CustomButton";
 import CustomInput from "../../components/inputs/CustomInput";
 import { validatePasswordEntry } from "../../utils/ValidationUtils";

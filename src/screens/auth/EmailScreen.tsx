@@ -8,7 +8,7 @@ import CustomButton from "../../components/global/CustomButton";
 import { navigate } from "../../utils/NavigationUtil";
 import { ScrollView } from "react-native";
 import { validateEmail } from "../../utils/ValidationUtils";
-import { GlobalStyles } from "../../styles/GlobalStyles";
+import { GlobalStyles } from "../../styles/globalStyles.tsx";
 import { useAppDispatch } from "../../redux/reduxHook";
 import { CheckEmail } from "../../redux/actions/userAction";
 

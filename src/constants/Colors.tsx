@@ -3,12 +3,13 @@
 export enum Colors {
   themeColor = "#00D09C",
 
-  dark_background = "#121212",
+  dark_background = "#1a1a1a",
   dark_background_light = "#252525",
   dark_text = "#FCFCFC",
   dark_text_light = "#FCFCFC",
   dark_border = "#484C56",
   dark_card = "#292929",
+  dark_secondary_background = "#292929",
 
   active_tab = "#FFF",
   unactive_tab = "#7C7D8B",

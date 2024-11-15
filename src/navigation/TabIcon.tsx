@@ -10,7 +10,7 @@ import Progress from "../assets/tabicons/progress.png";
 import ProgressFocused from "../assets/tabicons/progress_focused.png";
 import { FC } from "react";
 import { Image } from "react-native";
-import { GlobalStyles } from "../styles/GlobalStyles";
+import { GlobalStyles } from "../styles/globalStyles.tsx";
 
 interface TabProps {
   name: string;

@@ -3,7 +3,6 @@ import CustomSafeAreaView from "../../components/global/CustomSafeAreaView";
 import CenteredLogo from "../../components/global/CenteredLogo";
 import CustomInput from "../../components/inputs/CustomInput";
 import { RFValue } from "react-native-responsive-fontsize";
-import { GlobalStyles } from "../../styles/GlobalStyles";
 import { StyleSheet, TouchableOpacity, View } from "react-native";
 import CustomButton from "../../components/global/CustomButton";
 import { goBack, navigate } from "../../utils/NavigationUtil";
@@ -11,6 +10,7 @@ import { ScrollView } from "react-native";
 import OtpTimer from "../../components/auth/OtpTimer";
 import { useAppDispatch } from "../../redux/reduxHook";
 import { SendOTP, VerifyOTP } from "../../redux/actions/userAction";
+import { GlobalStyles } from "../../styles/globalStyles.tsx";
 
 const EmailOtpScreen = ({ route }: any) => {
   const [loading, setLoading] = useState(false);

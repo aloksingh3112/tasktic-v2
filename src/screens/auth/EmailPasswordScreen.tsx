@@ -6,7 +6,7 @@ import CustomInput from "../../components/inputs/CustomInput";
 import CustomButton from "../../components/global/CustomButton";
 import { validatePasswordLength } from "../../utils/ValidationUtils";
 import { goBack, navigate, resetAndNavigate } from "../../utils/NavigationUtil";
-import { GlobalStyles } from "../../styles/GlobalStyles";
+import { GlobalStyles } from "../../styles/globalStyles.tsx";
 import TouchableText from "../../components/auth/TouchableText";
 import { RFValue } from "react-native-responsive-fontsize";
 import { useAppDispatch } from "../../redux/reduxHook";

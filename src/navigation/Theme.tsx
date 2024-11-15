@@ -6,6 +6,7 @@ import { ColorSchemeName } from "react-native";
 
 interface ThemeColors {
   background: string;
+  secondaryBackground: string;
   border: string;
   card: string;
   notification: string;
@@ -22,6 +23,7 @@ export const lightTheme: Theme = {
   dark: false,
   colors: {
     background: Colors.light_background,
+    secondaryBackground: Colors.light_sub_background,
     border: Colors.light_border,
     card: Colors.light_card,
     notification: Colors.noti_card_light,
@@ -34,6 +36,7 @@ export const darkTheme: Theme = {
   dark: true,
   colors: {
     background: Colors.dark_background,
+    secondaryBackground: Colors.dark_secondary_background,
     border: Colors.dark_border,
     card: Colors.dark_card,
     notification: Colors.noti_card_dark,
